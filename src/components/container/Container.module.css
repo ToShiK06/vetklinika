@@ -1,0 +1,628 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+   width: 100%;
+   height: 950px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+  }
+  .container1{
+width: 50px;
+height: 500px;
+  }
+.container2{
+width: 600px;
+height: 360px;
+font-size: 110px;
+padding-top: 50px;
+
+}
+.zakaz{
+    width: 350px;
+    height: 100px;
+    border-radius: 50px;
+    border-color: transparent;
+    font-size: 25px;
+    background-color: #FFC59E;
+    box-shadow: 0 10px 10px rgb(111, 107, 107);
+}
+.zakaz:hover{
+    box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+    color:aliceblue;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.zakaz:active {
+    transform: scale(0.95); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+
+.container3{
+width: 834px;
+height: 790px;
+background-image: url(../container/images/animal.png);
+background-size: contain;
+background-repeat: no-repeat;
+
+
+}
+.uslugi{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content:space-around;
+}
+.terapiya{
+width: 320px;
+height: 220px;
+border-radius: 20px;
+border-color: transparent;
+box-shadow: 0 10px 10px rgb(111, 107, 107);
+background-color: #fff;
+font-size: 40px;
+display: flex;
+padding-left: 10px; 
+color: rgb(79, 78, 75);
+
+}
+.hirurgiya{
+  width: 320px;
+  height: 220px;
+  border-radius: 20px;
+  border-color: transparent;
+  box-shadow: 0 10px 10px rgb(111, 107, 107);
+  background-color: #fff;
+  font-size: 40px;
+  display: flex;
+padding-left: 10px;
+color: rgb(79, 78, 75);
+}
+.apteka{
+  width: 320px;
+  height: 220px;
+  border-radius: 20px;
+  border-color: transparent;
+  box-shadow: 0 10px 10px rgb(111, 107, 107);
+  background-color: #fff;
+  font-size: 40px;
+  display: flex;
+padding-left: 10px;
+color: rgb(79, 78, 75);
+}
+.ortopediya{
+  width: 320px;
+  height: 220px;
+  border-radius: 20px;
+  border-color: transparent;
+  box-shadow: 0 10px 10px rgb(111, 107, 107);
+  background-color: #fff;
+  font-size: 40px;
+  display: flex;
+padding-left: 10px;
+color: rgb(79, 78, 75);
+}
+.terapiya:hover{
+  box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+  color:rgba(106, 110, 112, 0.373);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.terapiya:active{
+  transform: scale(0.95); 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.terapiyaLogo{
+  background-image: url(../container/images/terap.png);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  background-position: 70px 100px;
+  background-repeat: no-repeat;
+  
+}
+.hirurgiya:hover{
+  box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+  color:rgba(106, 110, 112, 0.373);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.hirurgiya:active{
+  transform: scale(0.95); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.hirurgiyaLogo{
+background-image: url(../container/images/hirurg.png);
+width: 300px;
+  height: 300px;
+  display: flex;
+  background-position: 70px 100px;
+  background-repeat: no-repeat;
+}
+.apteka:hover{
+  box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+  color:rgba(106, 110, 112, 0.373);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.apteka:active{
+  transform: scale(0.95); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.aptekaLogo{
+  background-image: url(../container/images/apteka.png);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  background-position: 70px 100px;
+  background-repeat: no-repeat;
+  
+}
+.ortopediya:hover{
+  box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+  color:rgba(106, 110, 112, 0.373);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.ortopediya:active{
+  transform: scale(0.95); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.ortopediyaLogo{
+ background-image: url(../container/images/ortop.png);
+ width: 300px;
+  height: 300px;
+  display: flex;
+  background-position: 70px 100px;
+  background-repeat: no-repeat;
+}
+.uslugi2{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content:space-around;
+}
+
+
+.derma{
+  width: 320px;
+  height: 220px;
+  border-radius: 20px;
+  border-color: transparent;
+  box-shadow: 0 10px 10px rgb(111, 107, 107);
+  background-color: #fff;
+  font-size: 40px;
+  display: flex;
+padding-left: 10px;
+color: rgb(79, 78, 75);
+  }
+  .diagnost{
+    width: 320px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0 10px 10px rgb(111, 107, 107);
+    background-color: #fff;
+    font-size: 40px;
+    display: flex;
+    padding-right: 50px;
+    color: rgb(79, 78, 75);
+
+  }
+  .stomatolog{
+    width: 320px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0 10px 10px rgb(111, 107, 107);
+    background-color: #fff;
+    font-size: 40px;
+    display: flex;
+padding-left: 10px;
+color: rgb(79, 78, 75);
+  }
+  .onkologiya{
+    width: 320px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0 10px 10px rgb(111, 107, 107);
+    background-color: #fff;
+    font-size: 40px;
+    display: flex;
+padding-left: 10px;
+color: rgb(79, 78, 75);
+  }
+  .diagnost:hover{
+    box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+    color:rgba(106, 110, 112, 0.373);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .diagnost:active{
+    transform: scale(0.95); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .diagnostLogo{
+    background-image: url(../container/images/diagn.png);
+    width: 200px;
+    height: 250px;
+    display: flex;
+    background-position: 70px 100px;
+    background-repeat: no-repeat;
+  }
+  .derma:hover{
+    box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+    color:rgba(106, 110, 112, 0.373);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .derma:active{
+    transform: scale(0.95); 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .dermaLogo{
+    background-image: url(../container/images/derma.png);
+    width: 300px;
+  height: 300px;  
+  display: flex;
+  background-position: 70px 100px;
+  background-repeat: no-repeat;
+  }
+  .stomatolog:hover{
+    box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+    color:rgba(106, 110, 112, 0.373);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .stomatolog:active{
+    transform: scale(0.95); 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .stomatologLogo{
+    background-image: url(../container/images/stomat.png);
+    width: 300px;
+  height: 300px;
+  display: flex;
+  background-position: 70px 100px;
+  background-repeat: no-repeat;
+  }
+  .onkologiya:hover{
+    box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+    color:rgba(106, 110, 112, 0.373);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .onkologiya:active{
+    transform: scale(0.95); 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .onkologiyaLogo{ 
+    background-image: url(../container/images/onkolog.png);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background-position: 70px 100px;
+    background-repeat: no-repeat;
+  }
+  .der{
+    width: 100px;
+    height: 40px;
+  }
+  .ter{
+    width: 100px;
+    height: 40px;
+  }
+  .hir{
+    width: 100px;
+    height: 40px;
+  }
+  .apt{
+    width: 100px;
+    height: 40px;
+  }
+  .ort{
+    width: 100px;
+    height: 40px;
+  }
+  .diag{
+    width: 100px;
+    height: 40px;
+  }
+  .stom{
+    width: 100px;
+    height: 40px;
+  }
+  .onk{
+    width: 100px;
+    height: 40px;
+  }
+  .history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    background-color: #FBF8F8;
+  }
+  .history2{
+    width: 550px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+
+    flex-direction: column;
+
+  }
+  .hisCompanii{
+    font-size: 40px;
+    padding-bottom: 40px;
+  }
+  .vetmaster{
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .special{
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .specialLogo{
+    width: 100%;
+    height: 178px;
+    display: flex;  
+    background-image: url(../container/images/vrach1.png);
+    background-repeat: no-repeat;
+  }
+  .specialLogo2{
+    width: 100%;
+    height: 178px;
+    display: flex;  
+    background-image: url(../container/images/vrach2.png);
+    background-repeat: no-repeat;
+  }
+  .specialLogo3{
+    width: 100%;
+    height: 178px;
+    display: flex;  
+    background-image: url(../container/images/vrach3.png);
+    background-repeat: no-repeat;
+  }
+  .vrachi{
+    width: 100%;
+    display: flex;
+  }
+  .why{
+    width: 100%;
+    height: 1080px;
+
+  }
+  .pochemu{
+    width: 100%;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-size: 40px;
+  }
+  .usloviya{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+  }
+  .usloviya2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+  }
+  .usloviya3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+  }
+  .work{
+    width: 490px;
+    height: 210px;
+  }
+  .usl{
+    width: 490px;
+    height: 210px;
+  }
+  .opit{
+    width: 490px;
+    height: 210px;
+
+  }
+  .laborat{
+    width: 490px;
+    height: 210px;
+  }
+  .stationar{
+    width: 490px;
+    height: 210px;
+  }
+  .oborud{
+    width: 490px;
+    height: 210px;
+  }
+  .online{
+    width: 490px;
+    height: 210px;
+  }
+  .zoo{
+    width: 490px;
+    height: 210px;
+  }
+  .salon{
+    width: 490px;
+    height: 210px;
+  }
+  .tittleQ{
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .tittleWWW{
+    width: 320px;
+    height: 150px;
+    line-height: 2;
+    font-size: 16px;
+  }
+  .osnova{
+    width: 475px;
+    height: 130px;  
+    display: flex;  
+    justify-content: space-around;
+  }
+  .icoWork{
+    width: 90px;
+    height: 70px;
+    background-image: url(../container/images/work.png);
+  }
+  .icoUsl{
+    width: 80px;
+    height: 95px;
+    background-image: url(../container/images/usl.png);
+  }
+  .icoOpit{
+    width: 80px;
+    height: 100px;
+    background-image: url(../container/images/opit.png);
+  }
+  .icoLaborat{
+    width: 55px;
+    height: 65px;
+    background-image: url(../container/images/laborat.png);
+  }
+  .icoStationar{
+    width: 80px;
+    height: 65px;
+    background-image: url(../container/images/stationar.png);
+  }
+  .icoOborud{
+    width: 50px;
+    height: 75px;
+    background-image: url(../container/images/oborud.png);
+  }
+  .icoOnline{
+    width: 100px;
+    height: 90px;
+    background-image: url(../container/images/online.png);
+  }
+  .icoZoo{
+    width: 80px;
+    height: 80px;
+    background-image: url(../container/images/zoo.png);
+  }
+  .icoSalon{
+    width: 75px;
+    height: 75px;
+    background-image: url(../container/images/Salon.png);
+  }
+.contacti{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+
+}
+.contactiInfo{
+  width: 200px;
+  height: 360px;
+  padding-top: 150px;
+  padding-right: 150px;
+}
+.karta{
+width: 850px;
+height: 530px;
+background-image: url(../container/images/kartaImage.png);
+margin-top: 80px;
+margin-right: 400px;
+}
+.cont{
+  width: 200px;
+  height: 60px;
+  font-size: 60px;
+  display: flex;
+  padding-left: 300px;
+}
+.street{
+  width: 250px;
+  height: 60px;
+  font-size: 20px;
+}
+.rezhim{
+  font-size: 20px;
+  width: 200px;
+  height: 210px;
+}
+.nomer{
+  line-height: 8;
+  font-size: 24px;
+}
+.infoLogo{
+  width: 70px;
+  height: 250px;
+  margin-top: 160px;
+  margin-left: 0px;
+}
+.streetLogo{
+width: 100%;
+height: 120px;
+background-image: url(../container/images/street.png);
+
+}
+.nomerLogo{
+  width: 100%;
+  height: 120px;
+  background-image: url(../container/images/nomer.png);
+}
+.rezhimLogo{
+  width: 100%;
+  height: 120px;
+  background-image: url(../container/images/rezhim.png);
+}
+.contInfo{
+  width: 400px;
+  height: 300px;
+  display: flex; 
+  
+}
+
+
+
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #59443F;
+}
+.logotip{
+  width: 400px;
+  height: 75px;
+  display: flex;
+  color: #FBF8F8;
+  font-size: 44px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 150px;
+
+  
+}
+.lapka{
+  width: 100px;
+  height: 90px;
+  background-image: url(../container/images/log.png);
+
+}

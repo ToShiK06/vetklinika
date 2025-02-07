@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(243, 240, 240);
+}
+.headerTittle{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.headerLogo{
+    background-color: transparent;
+    background-image: url(../img/logo.png);
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+.lichnii{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+}
+.us{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+}
+.news{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+}
+.contact{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+}
+.blog{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+}
+.vn{
+    background-color: transparent;
+    border-color: transparent;
+    width: 220px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../img/vn.png);
+}
+.lichnii:hover{
+    color:#FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.us:hover{
+    color: #FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.news:hover{
+    color: #FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.contact:hover{
+    color:#FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.blog:hover{
+    color: #FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.vn:hover{
+    color: #FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
