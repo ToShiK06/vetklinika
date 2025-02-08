@@ -5,7 +5,7 @@ import s from './Container.module.css'
 const Container = () => {
   return (
     <div >
-      <div className={s.container}>
+      <div className={s.container} id='glavnaya'>
        <div className={s.container1}></div>
        <div className={s.container2}>
         Ветмастер
@@ -222,7 +222,7 @@ const Container = () => {
          </div>
 
           <div className={s.contacti}>
-            <div className={s.cont}>Контакты</div>
+            <div className={s.cont} id='kontakt'>Контакты</div>
 
             <div className={s.contInfo}>
             <div className={s.infoLogo}>
@@ -260,10 +260,12 @@ const Container = () => {
             <div className={s.logotip}>
             <div className={s.lapka}></div>
               Ветклиника
-            
             </div>
-            
-
+           <div className={s.funkcii}> 
+            <a href="#glavnaya">
+              Главная
+            </a>
+            </div>
           </div>
 
 

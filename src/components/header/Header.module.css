@@ -54,6 +54,13 @@
     font-weight: 600;
     color: #59443F;
 }
+.home{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+}
 .vn{
     background-color: transparent;
     border-color: transparent;
@@ -92,4 +99,19 @@
     transition: 0.3s;
     cursor: pointer;
 }
-
+.home:hover{
+    color: #FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #59443F;
+    font-weight: 600;
+}
+a:hover{
+    color: #FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+   
+}
