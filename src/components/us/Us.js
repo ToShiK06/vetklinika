@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/Header'
 import s from './Us.module.css'
+import {Link} from 'react-router-dom'
 
 const Us = () => {
   return (
@@ -28,7 +29,9 @@ const Us = () => {
 
             <div className={s.knopki}>
             <div className={s.specialisti}>
-                <button className={s.s1}>
+            <Link to= "/s1">
+            <button className={s.s1}>
+            
                  <div className={s.faceStazh}>
                     <div className={s.face1}></div>
                     <div className={s.stazh}>стаж 10 лет</div>
@@ -39,8 +42,11 @@ const Us = () => {
                     <div className={s.spec}>специализация</div>
                     <div className={s.zadacha}>Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория</div>
                  </div>
-
+                
                 </button>
+                </Link>
+               
+                <Link to= "/s2">
                 <button className={s.s2}>
                 <div className={s.faceStazh}>
                     <div className={s.face2}></div>
@@ -53,6 +59,9 @@ const Us = () => {
                     <div className={s.zadacha}>Анестезиология, лаборатория</div>
                  </div>
                 </button>
+                </Link>
+                
+                <Link to= "/s3">
                 <button className={s.s3}>
                 <div className={s.faceStazh}>
                     <div className={s.face3}></div>
@@ -65,8 +74,12 @@ const Us = () => {
                     <div className={s.zadacha}>Терапия, УЗИ-диагностика</div>
                  </div>
                 </button>
+                </Link>
+
             </div>
             <div className={s.specialisti2}>
+
+            <Link to= "/s4">
                 <button className={s.s4}>
                 <div className={s.faceStazh}>
                     <div className={s.face4}></div>
@@ -79,6 +92,9 @@ const Us = () => {
                     <div className={s.zadacha}>Врач общей практики</div>
                  </div>
                 </button>
+                </Link>
+
+                <Link to= "/s5">
                 <button className={s.s5}>
                 <div className={s.faceStazh}>
                     <div className={s.face5}></div>
@@ -86,11 +102,14 @@ const Us = () => {
                  </div>
                  <div className={s.infoVrach}>
                     <div className={s.prof}>ассистент ветеринарного врача</div>
-                    <div className={s.name}>Голубина Анастасия Маратовна</div>
+                    <div className={s.name}>Голубина Александра Маратовна</div>
                     <div className={s.spec}>специализация</div>
                     <div className={s.zadacha}>Хирургия</div>
                  </div>
                 </button>
+                </Link>
+
+                <Link to= "/s6">
                 <button className={s.s6}>
                 <div className={s.faceStazh}>
                     <div className={s.face6}></div>
@@ -103,6 +122,7 @@ const Us = () => {
                     <div className={s.zadacha}>Ортопедия</div>
                  </div>
                 </button>
+                </Link>
             </div>
             </div>
 
