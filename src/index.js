@@ -12,6 +12,8 @@ root.render(
     <Routes>
       <Route path = "/" element ={<App />}/>
       <Route path = "Us" element ={<Us/>}/>
+      
+      
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
