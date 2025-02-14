@@ -24,6 +24,8 @@ root.render(
       <Route path = "s3" element ={<Amina/>}/>
       <Route path = "s5" element ={<Sasha/>}/>
       <Route path = "s6" element ={<Vova/>}/>
+      <Route path = "exit" element ={<Us/>}/>
+      
       
     </Routes>
     </BrowserRouter>
