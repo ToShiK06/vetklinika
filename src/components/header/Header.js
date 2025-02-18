@@ -10,11 +10,11 @@ const Header = () => {
             <div className={s.headerLogo}></div>
             <button className={s.lichnii}>ЛИЧНЫЙ КАБИНЕТ</button>
             <button className={s.us}><Link to= "/Us">О НАС</Link></button>
-            <button className={s.news}>НОВОСТИ И АКЦИИ</button>
+          
             <button className={s.contact}>
             <a href="#kontakt">КОНТАКТЫ</a>
             </button>
-            <button className={s.blog}>БЛОГ</button>
+          
             <button className={s.home}><Link to = '/'>ГЛАВНАЯ</Link></button>
             <button className={s.vn}></button>
         </div>
