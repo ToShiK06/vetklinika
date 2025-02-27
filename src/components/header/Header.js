@@ -12,7 +12,7 @@ const Header = () => {
             <button className={s.us}><Link to= "/Us">О НАС</Link></button>
           
             <button className={s.contact}>
-            <a href="#kontakt">КОНТАКТЫ</a>
+             КОНТАКТЫ
             </button>
           
             <button className={s.home}><Link to = '/'>ГЛАВНАЯ</Link></button>

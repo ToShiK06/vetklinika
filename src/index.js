@@ -10,6 +10,8 @@ import Katya from './components/katya/Katya';
 import Amina from './components/amina/Amina';
 import Sasha from './components/sasha/Sasha';
 import Vova from './components/vova/Vova';
+import Zapis from './components/zapis/Zapis';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,7 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path = "/" element ={<App />}/>
+    
       <Route path = "Us" element ={<Us/>}/>
       <Route path = "s1" element ={<Anastasiya/>}/>
       <Route path = "s4" element ={<Kostya/>}/>
@@ -25,6 +28,9 @@ root.render(
       <Route path = "s5" element ={<Sasha/>}/>
       <Route path = "s6" element ={<Vova/>}/>
       <Route path = "exit" element ={<Us/>}/>
+      <Route path = "zapis" element ={<Zapis/>}/>
+      
+     
       
       
     </Routes>

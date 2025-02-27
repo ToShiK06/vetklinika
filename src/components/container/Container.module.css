@@ -7,7 +7,7 @@
 }
 
 .container {
-  margin-top: 60px;
+  margin-top: 140px;
    width: 100%;
    height: 950px;
    display: flex;
@@ -602,12 +602,15 @@ background-image: url(../container/images/street.png);
   display: flex; 
   
 }
-
-
-
+.footer1{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: end;
+}
 .footer{
   width: 100%;
-  height: 300px;
+  height: 200px;
   background-color: rgb(243, 240, 240);
   display: flex;
   justify-content: space-around;
@@ -631,12 +634,10 @@ background-image: url(../container/images/street.png);
 
 }
 
-a{
-  text-decoration: none;
-  color: #59443F;
-  transition: all 5s;
-}
+
 .funkcii{
     
     font-size: 24px;
 }
+
+

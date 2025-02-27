@@ -11,7 +11,10 @@ const Katya = () => {
         <div className={s.backFace}>
         <div className={s.face}></div>
         <div className={s.data}>ближайшая дата приёма: 13.03.25</div>
+        <Link to= "/zapis"> 
         <button className={s.zapis}>записаться</button>
+        </Link>
+        
       </div>
 
       <div className={s.infoVrach}>
