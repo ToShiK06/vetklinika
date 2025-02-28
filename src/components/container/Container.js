@@ -1,11 +1,13 @@
 import React from "react";
 import s from "./Container.module.css";
+import Slider from '../slider/Slider'; 
 import { Link } from "react-router-dom";
 
 const Container = () => {
   return (
     
     <div>
+      <Slider />
       <div className={s.container} id="glavnaya">
         <div className={s.container1}></div>
         <div className={s.container2}>
