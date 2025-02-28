@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import s from './Slider.module.css';
 import image1 from '../img/vet.png';
 import image2 from '../img/vet1.jpg';
@@ -20,9 +21,9 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 3000); // Меняем слайд каждые 3 секунды
+    }, 2000);
 
-    return () => clearInterval(interval); // Очистка интервала при размонтировании
+    return () => clearInterval(interval); 
   }, []);
 
   const nextSlide = () => {
@@ -36,75 +37,94 @@ const Slider = () => {
   };
 
   return (
-    <div style={{ position: 'relative', width: '600px', margin: 'auto', overflow: 'hidden' }}>
-      <div style={{  marginTop: '150px',display: 'flex', transition: 'transform 0.5s ease', transform: `translateX(-${currentIndex * 100}%)` }}>
+    <div style={{ position: 'relative', width: '100%',height:'1080px', margin: 'auto', overflow: 'hidden' }}>
+      <div style={{  marginTop: '120px',display: 'flex', transition: 'transform 0.5s ease', transform: `translateX(-${currentIndex * 100}%)` }}>
         {content.map((item, index) => (
-          <div key={index} style={{ width: '600px', flexShrink: 0 }}>
+          <div key={index} style={{ width: '100%', flexShrink: 0 }}>
             {item}
             
           </div>
         ))}
       </div>
-      
+      <div
+        style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          fontSize: '40px',
+          transform: 'translate(-50%, -50%)',
+          color: 'black',
+          textAlign: 'center',
+          zIndex: 2,
+          backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+          padding: '20px',
+          borderRadius: '10px',
+        }}
+      >
+        <h1>Ветмастер лучшая ветклиника</h1>
+        <p><Link to="/zapis">
+            <button className={s.zakaz}>ЗАПИСАТЬСЯ</button>
+          </Link></p>
+      </div>
      
     </div>
   );
 };
 
 const slideStyle = {
-  width: '600px',
-  height: '300px',
+  width: '100%',
+  height:'1080px',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   fontSize: '24px',
   
   backgroundColor: '#f0f0f0',
-  border: '1px solid #ccc',
+  border: 'none',
   borderRadius: '8px',
 };
 const slideStyle1 = {
-    width: '600px',
-    height: '300px',
+  width: '100%',
+  height:'1080px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: '24px',
     backgroundColor: '#f0f0f0',
-    border: '1px solid #ccc',
+    border: 'none',
     borderRadius: '8px',
   };
   const slideStyle2 = {
-    width: '600px',
-    height: '300px',
+    width: '100%',
+    height:'1080px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: '24px',
     backgroundColor: '#f0f0f0',
-    border: '1px solid #ccc',
+    border: 'none',
     borderRadius: '8px',
   };
   const slideStyle3 = {
-    width: '600px',
-    height: '300px',
+    width: '100%',
+    height:'1080px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: '24px',
     backgroundColor: '#f0f0f0',
-    border: '1px solid #ccc',
+    border: 'none',
     borderRadius: '8px',
   };
   const slideStyle4 = {
-    width: '600px',
-    height: '300px',
+    width: '100%',
+    height:'1080px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: '24px',
     backgroundColor: '#f0f0f0',
-    border: '1px solid #ccc',
+    border: 'none',
     borderRadius: '8px',
   };
 

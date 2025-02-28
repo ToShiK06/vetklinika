@@ -9,14 +9,8 @@ const Container = () => {
     <div>
       <Slider />
       <div className={s.container} id="glavnaya">
-        <div className={s.container1}></div>
-        <div className={s.container2}>
-          Ветмастер лучшая ветклиника
-          <Link to="/zapis">
-            <button className={s.zakaz}>ЗАПИСАТЬСЯ</button>
-          </Link>
-        </div>
-        <div className={s.container3}></div>
+        
+        
       </div>
       <div className={s.uslugi}>
         <button className={s.terapiya}>
