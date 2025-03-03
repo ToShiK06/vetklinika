@@ -12,6 +12,7 @@ import Sasha from './components/sasha/Sasha';
 import Vova from './components/vova/Vova';
 import Zapis from './components/zapis/Zapis';
 import Special from './components/special/Special';
+import Contacti from './components/contakti/Contacti';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,6 +32,7 @@ root.render(
       <Route path = "exit" element ={<Us/>}/>
       <Route path = "zapis" element ={<Zapis/>}/>
       <Route path = "spec" element ={<Special/>}/>
+      <Route path = "Cont" element ={<Contacti/>}/>
       
      
       

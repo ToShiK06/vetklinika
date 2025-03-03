@@ -37,7 +37,7 @@ const Slider = () => {
   };
 
   return (
-    <div style={{ position: 'relative', width: '100%',height:'1080px', margin: 'auto', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', width: '100%',height:'1080px', margin: 'auto' ,overflow: 'hidden' }}>
       <div style={{  marginTop: '120px',display: 'flex', transition: 'transform 0.5s ease', transform: `translateX(-${currentIndex * 100}%)` }}>
         {content.map((item, index) => (
           <div key={index} style={{ width: '100%', flexShrink: 0 }}>
