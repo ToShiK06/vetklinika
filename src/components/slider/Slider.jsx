@@ -21,7 +21,7 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 2000);
+    }, 3000);
 
     return () => clearInterval(interval); 
   }, []);
@@ -49,20 +49,21 @@ const Slider = () => {
       <div
         style={{
           position: 'absolute',
+          width: '500px',
           top: '50%',
-          left: '50%',
+          left: '30%',
           fontSize: '40px',
           transform: 'translate(-50%, -50%)',
           color: 'black',
           textAlign: 'center',
           zIndex: 2,
-          backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+          backgroundColor: 'rgba(114, 109, 109, 0.5)', 
           padding: '20px',
-          borderRadius: '10px',
+          borderRadius: '20px',
         }}
       >
-        <h1>Ветмастер лучшая ветклиника</h1>
-        <p><Link to="/zapis">
+        <h1  style={{color:'#59443F'}}>Ветмастер, лучшая ветклиника</h1>
+        <p><Link to="spec">
             <button className={s.zakaz}>ЗАПИСАТЬСЯ</button>
           </Link></p>
       </div>

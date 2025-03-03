@@ -11,6 +11,7 @@ import Amina from './components/amina/Amina';
 import Sasha from './components/sasha/Sasha';
 import Vova from './components/vova/Vova';
 import Zapis from './components/zapis/Zapis';
+import Special from './components/special/Special';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,6 +30,7 @@ root.render(
       <Route path = "s6" element ={<Vova/>}/>
       <Route path = "exit" element ={<Us/>}/>
       <Route path = "zapis" element ={<Zapis/>}/>
+      <Route path = "spec" element ={<Special/>}/>
       
      
       
