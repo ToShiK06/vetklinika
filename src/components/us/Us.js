@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../header/Header'
 import s from './Us.module.css'
 import Special from '../special/Special'
+import Scroll from '../scroll/Scroll';
+import {Link} from 'react-router-dom'
 
 const Us = () => {
   return (
@@ -26,19 +28,23 @@ const Us = () => {
 
         <Special/>
 
+        <div className={s.footer1}>
         <div className={s.footer}>
-        
-                    <div className={s.logotip}>
-                    <div className={s.lapka}></div>
-                      Ветклиника
-                    </div>
-                   <div className={s.funkcii}> 
-                    <a href="#glavnaya">
-                      Главная
-                    </a>
-                    </div>
-         </div>
-        
+        <Scroll/>
+          <div className={s.logotip}>
+            <div className={s.lapka}></div>
+            Ветклиника
+          </div>
+         
+          <Link to="/">
+          <button className={s.funkcii}>
+           Главная
+          </button>
+          </Link>
+          
+          
+        </div>
+        </div>
     </div>
   )
 }

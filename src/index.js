@@ -21,9 +21,9 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path = "/" element ={<App />}/>
-    
       <Route path = "Us" element ={<Us/>}/>
       <Route path = "s1" element ={<Anastasiya/>}/>
+      <Route path = "ex" element ={<Special/>}/>
       <Route path = "s4" element ={<Kostya/>}/>
       <Route path = "s2" element ={<Katya/>}/>
       <Route path = "s3" element ={<Amina/>}/>
@@ -33,6 +33,7 @@ root.render(
       <Route path = "zapis" element ={<Zapis/>}/>
       <Route path = "spec" element ={<Special/>}/>
       <Route path = "Cont" element ={<Contacti/>}/>
+
       
      
       

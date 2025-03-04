@@ -2,6 +2,7 @@ import React from "react";
 import s from "./Container.module.css";
 import Slider from '../slider/Slider'; 
 import { Link } from "react-router-dom";
+import Scroll from '../scroll/Scroll';
 
 const Container = () => {
   return (
@@ -73,6 +74,17 @@ const Container = () => {
             <div className={s.specialLogo2}></div>
             <div className={s.specialLogo3}></div>
           </div>
+        </div>
+      </div>
+
+      <div className={s.help}>
+        <div className={s.infa}>
+        <div className={s.kolvo}>1 150 000</div>
+        <div className={s.titleHelp}>питомцам мы помогли <br/>за 18 лет работы</div>
+        
+        </div>
+        <div className={s.fotoPt}>
+        <div className={s.ptichka}></div>
         </div>
       </div>
 
@@ -227,18 +239,19 @@ const Container = () => {
               />
           </div>
         </div>
-
+        
         <div className={s.footer1}>
         <div className={s.footer}>
+        <Scroll/>
           <div className={s.logotip}>
             <div className={s.lapka}></div>
             Ветклиника
           </div>
-          <Link to="/">
+         
           <button className={s.funkcii}>
-           Главная
+           
           </button>
-          </Link>
+          
           
         </div>
         </div>

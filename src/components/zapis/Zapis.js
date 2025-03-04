@@ -13,7 +13,7 @@ const Zapis = () => {
           на приём
         </div>
         <div className={s.knop}>
-          <Link to="/">
+          <Link to="/ex">
             <button className={s.exit}> назад </button>
           </Link>
           <div className={s.knopki}>

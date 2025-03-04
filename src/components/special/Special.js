@@ -1,11 +1,14 @@
 import React from 'react'
 import s from './Special.module.css'
+import Header from '../header/Header'
 import {Link} from 'react-router-dom'
 
 
 const Special = () => {
   return (
+    
     <div className={s.special}>
+      <Header/>
        <div className={s.specialTittle}>Специалисты</div>
 
 <div className={s.knopki}>

@@ -1,0 +1,26 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    color: #59443F;
+    background-color:#FFC59E;
+    border: none;
+    border-radius: 50px;
+    
+    
+}
+
+.scroll-to-top:hover {
+    
+    box-shadow:0 15px 15px rgba(0, 0, 0, 0.333);
+    color:aliceblue;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.scroll-to-top.visible {
+    display: block;
+    transform: scale(0.95); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}

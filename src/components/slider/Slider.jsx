@@ -31,10 +31,8 @@ const Slider = () => {
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => 
-      (prevIndex - 1 + content.length) % content.length
-    );
-  };
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + content.length) % content.length);
+};
 
   return (
     <div style={{ position: 'relative', width: '100%',height:'1080px', margin: 'auto' ,overflow: 'hidden' }}>
