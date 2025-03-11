@@ -651,11 +651,70 @@ background-image: url(../container/images/street.png);
   background-image: url(../img/logo.png);
 
 }
-
-
+.lichnii{
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  color: #59443F;
+}
+.us{
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  color: #59443F;
+}
+.contact{
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  color: #59443F;
+}       
+.lichnii:hover{
+  color:#FFC59E;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.us:hover{
+  color: #FFC59E;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.news:hover{
+  color: #FFC59E;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.contact:hover{
+  color:#FFC59E;
+  transition: 0.3s;
+  cursor: pointer;
+}
 .funkcii{
     
     font-size: 24px;
 }
 
-
+.knopki{
+  width: 250px;
+  height: 200px;
+  flex-direction: column;
+  display: flex;
+  align-items:start;
+  
+  justify-content: center;
+  row-gap: 10px;
+}
+.seti{
+  width: 400px;
+  height: 200px;
+}
+.tg{
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/Youtube_logo.png);
+  background-color: transparent;
+  border-color: transparent;
+}

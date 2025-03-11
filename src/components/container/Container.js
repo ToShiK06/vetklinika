@@ -1,18 +1,14 @@
 import React from "react";
 import s from "./Container.module.css";
-import Slider from '../slider/Slider'; 
+import Slider from "../slider/Slider";
 import { Link } from "react-router-dom";
-import Scroll from '../scroll/Scroll';
+import Scroll from "../scroll/Scroll";
 
 const Container = () => {
   return (
-    
     <div>
       <Slider />
-      <div className={s.container} id="glavnaya">
-        
-        
-      </div>
+      <div className={s.container} id="glavnaya"></div>
       <div className={s.uslugi}>
         <button className={s.terapiya}>
           <div className={s.ter}>Терапия</div>
@@ -79,12 +75,14 @@ const Container = () => {
 
       <div className={s.help}>
         <div className={s.infa}>
-        <div className={s.kolvo}>1 150 000</div>
-        <div className={s.titleHelp}>питомцам мы помогли <br/>за 18 лет работы</div>
-        
+          <div className={s.kolvo}>1 150 000</div>
+          <div className={s.titleHelp}>
+            питомцам мы помогли <br />
+            за 18 лет работы
+          </div>
         </div>
         <div className={s.fotoPt}>
-        <div className={s.ptichka}></div>
+          <div className={s.ptichka}></div>
         </div>
       </div>
 
@@ -224,36 +222,45 @@ const Container = () => {
           </div>
           <div className={s.karta}>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2082.443919261817!2d31.26028717752577!3d58.537558174240615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46beebb3b0d5ed49%3A0x129feee4e791260d!2z0JLQtdGC0JzQsNGB0YLQtdGA!5e0!3m2!1sru!2sru!4v1741015519737!5m2!1sru!2sru"
-                width="100%"
-                height="400"
-                style={{
-                  border: "0",
-                  boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
-                  borderRadius: "10px",
-                }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Карта Google Maps с локацией Москвы"
-              />
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2082.443919261817!2d31.26028717752577!3d58.537558174240615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46beebb3b0d5ed49%3A0x129feee4e791260d!2z0JLQtdGC0JzQsNGB0YLQtdGA!5e0!3m2!1sru!2sru!4v1741015519737!5m2!1sru!2sru"
+              width="100%"
+              height="400"
+              style={{
+                border: "0",
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+                borderRadius: "10px",
+              }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Карта Google Maps с локацией Москвы"
+            />
           </div>
         </div>
-        
+
         <div className={s.footer1}>
-        <div className={s.footer}>
-        <Scroll/>
-          <div className={s.logotip}>
-            <div className={s.lapka}></div>
-            Ветклиника
-          </div>
-         
-          <button className={s.funkcii}>
+          <div className={s.footer}>
+            <Scroll />
+            <div className={s.logotip}>
+              <div className={s.lapka}></div>
+              Ветклиника
+            </div>
+            <div className={s.knopki}>
+            <button className={s.lichnii}>ЛИЧНЫЙ КАБИНЕТ</button>
+            <button className={s.us}>
+              <Link to="/Us">О НАС</Link>
+            </button>
+            <button className={s.contact}>
+              <Link to="/Cont">КОНТАКТЫ</Link>
+            </button>
+            </div>
+            <div className={s.seti}>
+              <button className={s.tg}></button>
+              <button className={s.vk}></button>
+              <button className={s.youtube}></button>
+            </div>
            
-          </button>
-          
-          
-        </div>
+          </div>
         </div>
       </div>
     </div>
