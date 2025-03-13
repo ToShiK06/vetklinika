@@ -22,7 +22,7 @@ const Anastasiya = () => {
         <button className={s.exit}> назад </button>
         </Link>
         <div className={s.name}>Иванова Анастасия Андреевна </div>
-        <div className={s.specialnost}>Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория</div>
+        <div className={s.specialnost}>Терапия, хирургия, ортопедия, лаборатория</div>
         <div className={s.info}>
           Меня зовут Иванова Анастасия, и я ветеринар. С самого детства я мечтала 
           работать с животными, и эта мечта стала моим жизненным призванием. Я родилась 

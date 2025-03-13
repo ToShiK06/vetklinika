@@ -24,7 +24,7 @@ const Special = () => {
           <div className={s.prof}>врач</div>
           <div className={s.name}>Иванова Анастасия Андреевна</div>
           <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория</div>
+          <div className={s.zadacha}>Терапия, хирургия, ортопедия, лаборатория</div>
         </div>
 
       </button>
@@ -55,7 +55,7 @@ const Special = () => {
           <div className={s.prof}>врач</div>
           <div className={s.name}>Бублина Амина Рахметова</div>
           <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Терапия, УЗИ-диагностика</div>
+          <div className={s.zadacha}>Аптека, УЗИ-диагностика</div>
         </div>
       </button>
     </Link>

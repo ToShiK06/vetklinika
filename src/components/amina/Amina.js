@@ -22,8 +22,11 @@ const Amina = () => {
         <Link to= "/exit">
         <button className={s.exit}> назад </button>
         </Link>
+        <Link to="/">
+        <button className={s.exit}>главная</button>
+        </Link>
         <div className={s.name}>Бублина Амина Рахметова</div>
-        <div className={s.specialnost}>Терапия, УЗИ-диагностика, хирургия</div>
+        <div className={s.specialnost}>Апиека, УЗИ-диагностика</div>
         <div className={s.info}>
         Здравствуйте! Меня зовут Бублина Амина, и я ветеринар. 
         Моя любовь к животным началась с раннего детства, когда я проводила часы, 

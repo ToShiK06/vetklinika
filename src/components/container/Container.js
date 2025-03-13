@@ -10,15 +10,18 @@ const Container = () => {
       <Slider />
       <div className={s.container} id="glavnaya"></div>
       <div className={s.uslugi}>
+      <Link to="/s1">
         <button className={s.terapiya}>
           <div className={s.ter}>Терапия</div>
           <div className={s.terapiyaLogo}></div>
         </button>
-
+        </Link>
+      <Link to="/s5">
         <button className={s.hirurgiya}>
           <div className={s.hir}>Хирургия</div>
           <div className={s.hirurgiyaLogo}></div>
         </button>
+        </Link>
 
         <button className={s.apteka}>
           <div className={s.apt}>Аптека</div>
@@ -258,6 +261,10 @@ const Container = () => {
               <button className={s.tg}></button>
               <button className={s.vk}></button>
               <button className={s.youtube}></button>
+              <div className={s.pochta}>
+              <div className={s.logoPochta}></div>
+              <button className={s.gmail}>antonshorin23@gmail.com</button>
+              </div>
             </div>
            
           </div>
