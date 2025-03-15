@@ -21,8 +21,11 @@ const Katya = () => {
         <Link to= "/exit">
         <button className={s.exit}> назад </button>
         </Link>
+        <Link to="/">
+        <button className={s.exit}>главная</button>
+        </Link>
         <div className={s.name}>Колпина Екатерина Дмитриевна </div>
-        <div className={s.specialnost}>Анестезиология, лаборатория</div>
+        <div className={s.specialnost}>Анестезиология, лаборатория, стоматология</div>
         <div className={s.info}>
         Привет! Меня зовут Колпина Екатерина, и я ветеринар. С детства я была окружена 
         животными — у нас дома всегда жили хомячки и крыски, и я не представляла своей 

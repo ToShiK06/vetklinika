@@ -225,12 +225,14 @@
     margin-top: 10px;
   }
   .spec{
+    
     font-size: 16px;
     color: #71706f;
     font-weight: 500;
     margin-top: 20px;
   }
   .zadacha{
+    width: 250px;
     font-size: 20px;
     font-weight: 400;
     margin-top: 30px;

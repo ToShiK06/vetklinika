@@ -21,8 +21,11 @@ const Sasha = () => {
         <Link to= "/exit">
         <button className={s.exit}> назад </button>
         </Link>
+        <Link to="/">
+        <button className={s.exit}>главная</button>
+        </Link>
         <div className={s.name}>Голубина Александра Маратовна </div>
-        <div className={s.specialnost}>Хирургия</div>
+        <div className={s.specialnost}>Хирургия, онкология</div>
         <div className={s.info}>
         Здравствуйте! Меня зовут Голубина Александра, и я ветеринар. С детства 
         я была окружена животными: у нас дома жили не только собаки и кошки, но 

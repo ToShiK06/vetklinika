@@ -21,6 +21,9 @@ const Anastasiya = () => {
         <Link to= "/exit">
         <button className={s.exit}> назад </button>
         </Link>
+        <Link to="/">
+        <button className={s.exit}>главная</button>
+        </Link>
         <div className={s.name}>Иванова Анастасия Андреевна </div>
         <div className={s.specialnost}>Терапия, хирургия, ортопедия, лаборатория</div>
         <div className={s.info}>

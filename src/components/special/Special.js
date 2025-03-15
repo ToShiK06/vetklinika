@@ -40,7 +40,7 @@ const Special = () => {
           <div className={s.prof}>ассистент ветеринарного врача</div>
           <div className={s.name}>Колпина Екатерина Дмитриевна</div>
           <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Анестезиология, лаборатория</div>
+          <div className={s.zadacha}>Анестезиология, лаборатория, стоматология</div>
         </div>
       </button>
     </Link>
@@ -73,7 +73,7 @@ const Special = () => {
           <div className={s.prof}>ординатор</div>
           <div className={s.name}>Констатинопольский Константин Константинович</div>
           <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Врач общей практики</div>
+          <div className={s.zadacha}>Врач общей практики, визуальная диагностика </div>
         </div>
       </button>
     </Link>
@@ -88,7 +88,7 @@ const Special = () => {
           <div className={s.prof}>ассистент ветеринарного врача</div>
           <div className={s.name}>Голубина Александра Маратовна</div>
           <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Хирургия</div>
+          <div className={s.zadacha}>Хирургия, онкология</div>
         </div>
       </button>
     </Link>
@@ -103,7 +103,7 @@ const Special = () => {
           <div className={s.prof}>ардинатор</div>
           <div className={s.name}>Зарубин Владимир Николаевич</div>
           <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Ортопедия</div>
+          <div className={s.zadacha}>Ортопедия, дерматология</div>
         </div>
       </button>
     </Link>

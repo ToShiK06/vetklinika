@@ -22,8 +22,11 @@ const Vova = () => {
         <Link to= "/exit">
         <button className={s.exit}> назад </button>
         </Link>
+        <Link to="/">
+        <button className={s.exit}>главная</button>
+        </Link>
         <div className={s.name}>Зарубин Владимир Николаевич </div>
-        <div className={s.specialnost}>Ортопедия</div>
+        <div className={s.specialnost}>Ортопедия, дерматология</div>
         <div className={s.info}>
         Меня зовут Зарубин Владимир, и я ветеринар. С самого детства я мечтал 
         работать с животными, и эта мечта стала реальностью благодаря моему образованию 

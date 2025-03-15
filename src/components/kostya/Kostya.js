@@ -20,8 +20,11 @@ const Kostya = () => {
         <Link to= "/exit">
         <button className={s.exit}> назад </button>
         </Link>
+        <Link to="/">
+        <button className={s.exit}>главная</button>
+        </Link>
         <div className={s.name}>Констатинопольский Константин Константинович </div>
-        <div className={s.specialnost}>Врач общей практики</div>
+        <div className={s.specialnost}>Врач общей практики, визуальная диагностика</div>
         <div className={s.info}>
         Здравствуйте! Меня зовут Констатинопольский Константин, и я ветеринар. 
         С самого детства я был увлечен животными всех видов — от попугаев и 

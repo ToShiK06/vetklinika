@@ -77,6 +77,7 @@
 
   .exit{
     width: 200px;
+    height: 25%;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -134,9 +135,106 @@
     background-image: url(../img/logo.png);
   
   }
-  
-  
+  .lichnii{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+  }
+  .us{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+  }
+  .contact{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #59443F;
+  }       
+  .lichnii:hover{
+    color:#FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .us:hover{
+    color: #FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .news:hover{
+    color: #FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .contact:hover{
+    color:#FFC59E;
+    transition: 0.3s;
+    cursor: pointer;
+  }
   .funkcii{
       
       font-size: 24px;
+  }
+  
+  .knopki{
+    width: 250px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+  
+    
+    justify-content: center;
+    row-gap: 10px;
+  }
+  .seti{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tg{
+    width: 52px;
+    height: 52px;
+    background-image: url(../img/tg.png);
+    background-color: transparent;
+    border-color: transparent;
+    
+  }
+  .youtube{
+    width: 72px;
+    height: 52px;
+    background-image: url(../img/Youtube\ \(2\).png);
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .vk{
+    width: 52px;
+    height: 52px;
+    background-image: url(../img/vk.png);
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .gmail{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 24px;
+    
+  }
+  .pochta{
+    width: 450px;
+    height: 70px;
+   display: flex;
+   align-items: center;
+    
+  }
+  .logoPochta{
+    width: 62px;
+    height: 62px;
+    background-image: url(../img/gmail.png);
   }

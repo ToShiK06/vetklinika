@@ -13,6 +13,7 @@ import Vova from './components/vova/Vova';
 import Zapis from './components/zapis/Zapis';
 import Special from './components/special/Special';
 import Contacti from './components/contakti/Contacti';
+import Online from './components/online/Online';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +34,7 @@ root.render(
       <Route path = "zapis" element ={<Zapis/>}/>
       <Route path = "spec" element ={<Special/>}/>
       <Route path = "Cont" element ={<Contacti/>}/>
+      <Route path = "online1" element ={<Online/>}/>
 
       
      

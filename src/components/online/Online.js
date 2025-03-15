@@ -1,38 +1,24 @@
-import React from "react";
+import React from 'react'
 import Header from "../header/Header";
-import s from "./Zapis.module.css";
+import s from './Online.module.css'
 import { Link } from "react-router-dom";
 import Scroll from "../scroll/Scroll";
 
-const Zapis = () => {
+const Online = () => {
   return (
-    <div className={s.zapis}>
-      <Header />
-      <div className={s.zapisContent}>
-        <div className={s.title1}>
-          Запись <br />
-          на приём
-        </div>
-        <div className={s.knop}>
-          <Link to="/ex">
-            <button className={s.exit}> назад </button>
-          </Link>
-          <div className={s.knopki}>
-            <Link to="/online1">
-            <button className={s.online}>
-              <div className={s.title}>Онлайн-консультация</div>
-              <div className={s.cena}>2000 ₽</div>
-            </button>
-            </Link>
-            <button className={s.online}>
-              <div className={s.title}>Прием в клинике</div>
-              <div className={s.cena}>Бесплатно</div>
-            </button>
-          </div>
-        </div>
-      </div>
+    <div className={s.online}>
+        <Header/>
+        <div className={s.oformlenie}>
 
-      <div className={s.footer1}>
+
+
+
+        </div>
+
+
+
+
+        <div className={s.footer1}>
           <div className={s.footer}>
             <Scroll />
             <div className={s.logotip}>
@@ -63,8 +49,9 @@ const Zapis = () => {
            
           </div>
         </div>
+      
     </div>
-  );
-};
+  )
+}
 
-export default Zapis;
+export default Online
