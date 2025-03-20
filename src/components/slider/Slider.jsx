@@ -51,16 +51,19 @@ const Slider = () => {
           top: '50%',
           left: '30%',
           fontSize: '40px',
+          
           transform: 'translate(-50%, -50%)',
           color: 'black',
           textAlign: 'center',
+          textAlign:'left',
           zIndex: 2,
           backgroundColor: 'rgba(114, 109, 109, 0.5)', 
           padding: '20px',
           borderRadius: '20px',
         }}
+        
       >
-        <h1  style={{color:'#59443F'}}>Ветмастер, лучшая ветклиника</h1>
+        <h1  style={{color:'#59443F',}}>Ветмастер, лучшая ветклиника</h1>
         <p><Link to="spec">
             <button className={s.zakaz}>ЗАПИСАТЬСЯ</button>
           </Link></p>
@@ -69,6 +72,7 @@ const Slider = () => {
     </div>
   );
 };
+
 
 const slideStyle = {
   width: '100%',

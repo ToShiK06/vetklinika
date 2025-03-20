@@ -31,6 +31,7 @@ root.render(
       <Route path = "s5" element ={<Sasha/>}/>
       <Route path = "s6" element ={<Vova/>}/>
       <Route path = "exit" element ={<Us/>}/>
+      <Route path = "exi" element ={<Zapis/>}/>
       <Route path = "zapis" element ={<Zapis/>}/>
       <Route path = "spec" element ={<Special/>}/>
       <Route path = "Cont" element ={<Contacti/>}/>

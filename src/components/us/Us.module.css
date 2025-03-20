@@ -114,6 +114,7 @@
 .knopki{
   width: 250px;
   height: 100px;
+  row-gap: 10px;
   flex-direction: column;
   display: flex;
   justify-content: center;

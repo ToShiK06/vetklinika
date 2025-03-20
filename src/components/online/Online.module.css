@@ -7,16 +7,147 @@
     width: 100%;
     height: 1080px;
 }
-.oformlenie{
+.oformlenieZakaza{
     width: 100%;
-    height: 1080px;
+    height: 980px;
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top: 10%;
+}
+.zakaz{
+  width: 250px;
+  height: 150px;
+  font-size: 80px;
+ 
+
+}
+
+.exit{
+  width: 50px;
+  height: 20px;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffbe9e;
+  margin-top: 20px;
+}
+.fio{
+  width: 910px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 1px 1px 1px;
+}
+
+.nomData{
+  width: 910px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.problema{
+  width: 910px;
+  height: 170px;
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 1px 1px 1px;
 }
 
 
 
 
+.oformlenie{
+  width: 1000px;
+  height: 750px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  row-gap: 20px;
+}
 
+.oplata{
+  width: 910px;
+  height: 300px;
+  background-color:#e5e2e2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
 
+.vvod{
+  width: 880px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1%;
+  
+  
+}
+
+.karta{
+  width: 430px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.bezopas{
+  width: 440px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.kapcha{
+  width: 210px;
+  height: 60px;
+  background-image: url(../img/kapcha.png);
+  border-radius: 20px;
+}
+.title{
+  width: 210px;
+  height: 60px;
+  background-color: white;
+  border-radius: 20px;
+}
+.predupr{
+  width: 850px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.oplatit{
+  width: 300px;
+  height: 70px;
+  border-radius: 20px;
+  background-color: #ffbe9e;
+  color: aliceblue;
+  font-size: 20px;
+  border-color: transparent;
+  font-weight: 600;
+  
+}
+.oplatit:hover{
+  box-shadow:0 15px 15px rgba(145, 101, 82, 0.333);
+  color:rgba(106, 110, 112, 0.373);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.oplatit:active{
+  transform: scale(0.95); 
+  box-shadow:  0 10px 13px rgba(153, 87, 54, 0.2);
+}
 
 
 .footer1{
