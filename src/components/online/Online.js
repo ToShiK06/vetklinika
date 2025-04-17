@@ -4,10 +4,12 @@ import s from "./Online.module.css";
 import { Link } from "react-router-dom";
 import Scroll from "../scroll/Scroll";
 import InputField from "../poleVvoda/Pole";
-import InputField1 from "../poleVvoda/Nomer";
-import InputField2 from "../poleVvoda/Priem";
+import PhoneImput from "../poleVvoda/PhoneImput";
+import DatePickerComponent from '../data/DatePickerComponent';
 import InputField3 from "../poleVvoda/Problema";
 import InputField4 from "../poleVvoda/Text";
+import MyComponent from "../myComponents/MyComponent";
+
 
 const Online = () => {
   return (
@@ -24,8 +26,8 @@ const Online = () => {
           </Link>
           <InputField />
           <div className={s.nomData}>
-            <InputField1 />
-            <InputField2 />
+            <PhoneImput />
+            <DatePickerComponent />
           </div>
           <div>
             <InputField3 />
@@ -38,6 +40,7 @@ const Online = () => {
                 <div className={s.kapcha}></div>
                 <div>
                   <InputField4 />
+               
                 </div>
               </div>
             </div>
@@ -50,7 +53,7 @@ const Online = () => {
               конфиденциальности.
             </div>
 
-            <button className={s.oplatit}>ОПЛАТИТЬ</button>
+            <MyComponent />
           </div>
         </div>
       </div>
