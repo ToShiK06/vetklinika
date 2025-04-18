@@ -75,30 +75,38 @@
   background-color:#e5e2e2;
   border-radius: 20px;
   display: flex;
-  justify-content: center;
+  text-align: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  row-gap: 30px;
+  
+ 
+  
+}
+
+.oplataKnopka{
+  margin-bottom: 5%;
 }
 
 .vvod{
-  width: 880px;
-  height: 60px;
+  width: 90%;
+  height: 250px;
   display: flex;
-  justify-content: flex-end;
-  padding-top: 1%;
-  
+ justify-content: space-around;
+ 
+  row-gap: 20px;
   
 }
 
 .karta{
-  width: 430px;
+  width: 330px;
   height: 60px;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  
  
 }
 .bezopas{
@@ -120,11 +128,10 @@
   border-radius: 20px;
 }
 .predupr{
-  width: 850px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  padding-top: 2%;
+  width: 800px;
+  height: 200px;
+ margin-top: 2%;
+ margin-bottom: -4%;
 }
 
 .oplatit{

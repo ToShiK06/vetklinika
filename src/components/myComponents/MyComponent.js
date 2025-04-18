@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import './MyComponent.css'; 
+import { Link } from "react-router-dom";
 
 const MyComponent = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,7 +26,10 @@ const MyComponent = () => {
             <div className="krest">
             <span className="close" onClick={closeModal}>&times;</span>
             </div>
-            <p>Заявка принята!<br/>Спасибо за услугу!</p>
+            <p>Заявка принята!<br/>Спасибо за услугу!
+            <Link to="/">
+            <br/><button className="glavn">на главную</button>
+            </Link></p>
             
           </div>
         </div>

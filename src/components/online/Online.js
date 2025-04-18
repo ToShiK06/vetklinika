@@ -9,6 +9,7 @@ import DatePickerComponent from '../data/DatePickerComponent';
 import InputField3 from "../poleVvoda/Problema";
 import InputField4 from "../poleVvoda/Text";
 import MyComponent from "../myComponents/MyComponent";
+import CaptchaGenerator from "../capcha/CaptchaGenerator";
 
 
 const Online = () => {
@@ -34,26 +35,29 @@ const Online = () => {
           </div>
 
           <div className={s.oplata}>
-            <div className={s.vvod}>
-              <div className={s.karta}>Оплата банковской картой</div>
-              <div className={s.bezopas}>
-                <div className={s.kapcha}></div>
-                <div>
-                  <InputField4 />
-               
+            
+              <div className={s.predupr}>
+                Ваши личные данные будут использоваться для обработки ваших
+                заказов, упрощения вашей работы с
+                сайтом и для других целей, описанных в нашей политика
+                конфиденциальности.
+              </div>
+
+              <div className={s.vvod}>
+                <div className={s.karta}>Оплата банковской картой</div>
+                <div className={s.bezopas}>
+                  <div>
+                    <CaptchaGenerator />
+                  </div>
+
                 </div>
               </div>
+            
+
+            <div className={s.oplataKnopka}>
+              <MyComponent />
             </div>
 
-            <div className={s.predupr}>
-              Ваши личные данные будут использоваться для обработки ваших
-              заказов, упрощения вашей работы с
-              <br />
-              сайтом и для других целей, описанных в нашей политика
-              конфиденциальности.
-            </div>
-
-            <MyComponent />
           </div>
         </div>
       </div>

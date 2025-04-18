@@ -12,12 +12,28 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7); 
   }
+  .glavn{
+    width: 35%;
+    height: 15%;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+
+  }
+  .glavn:hover{
+   
+    color:rgb(213, 149, 116);
+    transition: 0.3s;
+    cursor: pointer; 
+    
+}
+
   .krest{
     width: 100%;
     display: flex;
     justify-content: right;
     align-items: start;
-    transform: translateY(-100px);
+    transform: translateY(-80px);
   }
   .button{
     width: 200px;
