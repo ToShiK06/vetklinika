@@ -48,6 +48,7 @@ const PhoneInput = () => {
       onBlur={handleBlur}
       placeholder="+7 (___) ___-__-__"
       className="phone-input"
+     
     />
   );
 };

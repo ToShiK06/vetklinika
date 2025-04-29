@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import './MyComponent.css'; 
 import { Link } from "react-router-dom";
+import s from "../online2/Online2.module.css"
 
 const MyComponent = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,7 +19,7 @@ const MyComponent = () => {
   return (
     <div>
       
-      <button className="button" onClick={handleButtonClick}>Оплатить</button>
+      <button className={s.button} onClick={handleButtonClick}>Оплатить</button>
 
       {isModalOpen && (
         <div className="modal">

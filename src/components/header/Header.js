@@ -7,8 +7,12 @@ const Header = () => {
     <div>
       <div className={s.header} id='glavnaya'>
         <div className={s.headerTittle}>
+        <Link to="/">
           <div className={s.headerLogo}></div>
+          </Link>
+          <Link to="/lk">
           <button className={s.lichnii}>ЛИЧНЫЙ КАБИНЕТ</button>
+          </Link>
           <button className={s.us}><Link to="/Us">О НАС</Link></button>
 
           <button className={s.contact}>
@@ -18,7 +22,6 @@ const Header = () => {
           </button>
 
           <button className={s.home}><Link to='/'>ГЛАВНАЯ</Link></button>
-          <button className={s.vn}></button>
         </div>
       </div>
     </div>

@@ -36,6 +36,7 @@ const InputField4 = () => {
           maxLength={4}
           onChange={handleChange}
           placeholder="Введите капчу"
+          
         />
       </form>
     </div>

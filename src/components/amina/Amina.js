@@ -19,9 +19,7 @@ const Amina = () => {
       </div>
 
       <div className={s.infoVrach}>
-        <Link to= "/exit">
-        <button className={s.exit}> назад </button>
-        </Link>
+       
         <Link to="/">
         <button className={s.exit}>главная</button>
         </Link>

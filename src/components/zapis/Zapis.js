@@ -14,8 +14,8 @@ const Zapis = () => {
           на приём
         </div>
         <div className={s.knop}>
-          <Link to="/ex">
-            <button className={s.exit}> назад </button>
+          <Link to="/">
+            <button className={s.exit}> Главная </button>
           </Link>
           <div className={s.knopki}>
             <Link to="/online1">
@@ -24,10 +24,12 @@ const Zapis = () => {
               <div className={s.cena}>2000 ₽</div>
             </button>
             </Link>
+            <Link to="/online2">
             <button className={s.online}>
               <div className={s.title}>Прием в клинике</div>
               <div className={s.cena}>Бесплатно</div>
             </button>
+            </Link>
           </div>
         </div>
       </div>

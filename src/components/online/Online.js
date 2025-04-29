@@ -7,10 +7,9 @@ import InputField from "../poleVvoda/Pole";
 import PhoneImput from "../poleVvoda/PhoneImput";
 import DatePickerComponent from '../data/DatePickerComponent';
 import InputField3 from "../poleVvoda/Problema";
-import InputField4 from "../poleVvoda/Text";
+
 import MyComponent from "../myComponents/MyComponent";
 import CaptchaGenerator from "../capcha/CaptchaGenerator";
-
 
 const Online = () => {
   return (
@@ -18,8 +17,7 @@ const Online = () => {
       <Header />
       <div className={s.oformlenieZakaza}>
         <div className={s.zakaz}>
-          Оформление <br />
-          заказа
+          Оплата
         </div>
         <div className={s.oformlenie}>
           <Link to="/exi">

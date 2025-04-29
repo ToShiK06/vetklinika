@@ -25,9 +25,8 @@ const InputField = () => {
     borderRadius: '20px',
     padding: '10px',
     fontSize: '16px',
-    width: '910px',
+    width: '885px',
     height: '30px'
-   
   };
 
   return (
@@ -39,6 +38,7 @@ const InputField = () => {
           value={inputValue}
           onChange={handleChange}
           placeholder="ФИО"
+          
         />
        
       </form>

@@ -20,7 +20,7 @@ const InputField3 = () => {
     borderRadius: '20px',
     padding: '10px',
     fontSize: '18px',
-    width: '910px',
+    width: '885px',
     height: '100px',
     display: 'flex',
     justifyContent: 'start'
@@ -37,6 +37,7 @@ const InputField3 = () => {
           value={inputValue}
           onChange={handleChange}
           placeholder="Кратко опишите проблему"
+          
         />
        
       </form>

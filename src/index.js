@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Profiler } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -14,6 +14,9 @@ import Zapis from './components/zapis/Zapis';
 import Special from './components/special/Special';
 import Contacti from './components/contakti/Contacti';
 import Online from './components/online/Online';
+import Online2 from './components/online2/Online2';
+import SignUp from './components/signUp/SignUp';
+import Profile from './components/profile/Profile';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,11 +39,9 @@ root.render(
       <Route path = "spec" element ={<Special/>}/>
       <Route path = "Cont" element ={<Contacti/>}/>
       <Route path = "online1" element ={<Online/>}/>
-
-      
-     
-      
-      
+      <Route path = "online2" element ={<Online2/>}/>
+      <Route path = "lk" element ={<SignUp/>}/>   
+      <Route path = "Profile" element ={<Profile/>}/>  
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

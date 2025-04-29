@@ -35,6 +35,7 @@ const InputField2 = () => {
           value={inputValue}
           onChange={handleChange}
           placeholder="Желаемая дата и время приема"
+          
         />
        
       </form>
