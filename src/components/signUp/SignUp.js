@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { supabase } from '../../lib/supabaseClient';
 import { useNavigate } from 'react-router-dom';
+import s from './SignUp.module.css'
 
 export default function SignUp() {
   const [email, setEmail] = useState('');
@@ -59,11 +60,14 @@ export default function SignUp() {
     }
   };
 
+  
+
   return (
-    <div className="auth-container">
-      <h2>Регистрация</h2>
-      <form onSubmit={handleSubmit}>
+    <div className={s.container}>
+      <h2 style={{marginTop:'2%', fontSize:'80px'}}>Регистрация</h2>
+      <form onSubmit={handleSubmit} style={{display:'flex', flexDirection:'column', rowGap:'30px',marginTop:'10%'}}>
         <input
+          style={{width:'400px', height:'50px', borderRadius:'20px',fontSize:'20px',textAlign:'center' }}
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -71,6 +75,7 @@ export default function SignUp() {
           required
         />
         <input
+        style={{width:'400px', height:'50px', borderRadius:'20px',fontSize:'20px',textAlign:'center' }}
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
@@ -78,10 +83,10 @@ export default function SignUp() {
           minLength={6}
           required
         />
-        <button type="submit" disabled={loading}>
+        <button type="submit" disabled={loading} style={{width:'400px', height:'50px', borderRadius:'20px',fontSize:'20px',textAlign:'center' }}>
           {loading ? 'Регистрируем...' : 'Зарегистрироваться'}
         </button>
-        {error && <div className="error">{error}</div>}
+        {error && <div style={{fontSize:'20px',textAlign:'center' }} className="error">{error}</div>}
       </form>
     </div>
   );

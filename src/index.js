@@ -17,6 +17,8 @@ import Online from './components/online/Online';
 import Online2 from './components/online2/Online2';
 import SignUp from './components/signUp/SignUp';
 import Profile from './components/profile/Profile';
+import AuthSelector from './components/AuthSelector';
+import Login from './components/Login';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -40,8 +42,11 @@ root.render(
       <Route path = "Cont" element ={<Contacti/>}/>
       <Route path = "online1" element ={<Online/>}/>
       <Route path = "online2" element ={<Online2/>}/>
-      <Route path = "lk" element ={<SignUp/>}/>   
+      <Route path = "SignUp" element ={<SignUp/>}/>   
+      <Route path = "lk" element ={<AuthSelector/>}/> 
       <Route path = "Profile" element ={<Profile/>}/>  
+      <Route path = "login" element ={<Login/>}/> 
+      <Route path="/auth" element={<AuthSelector />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

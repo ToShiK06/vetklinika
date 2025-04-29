@@ -1,9 +1,26 @@
-import React from 'react'
+import { useEffect } from 'react';
+import { supabase } from '../../lib/supabaseClient';
+import { useNavigate } from 'react-router-dom';
+import s from './Profile.module.css'
 
-const Profile = () => {
+export default function Profile() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      if (!user) navigate('/auth');
+    });
+  }, [navigate]);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    navigate('/auth');
+  };
+
   return (
-    <div>Profilevwervberberberberberberb</div>
-  )
+    <div className={s.lk}>
+      Привееееееет
+      <button onClick={handleLogout}>Выйти</button>
+    </div>
+  );
 }
-
-export default Profile
