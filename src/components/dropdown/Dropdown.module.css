@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .toggle {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+ .menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    row-gap: 40px;
+    margin-top: 40px;
+    background-color: transparent;
+    border-color: transparent; 
+    width: 200px;
+    z-index: 100;
+    text-align: center;
+  }
+  
+
+
+.glavn{
+    background-color: transparent;
+    border-color: transparent;
+    color: grey;
+    font-size: 26px;
+}
+.glavn:hover{
+    color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.us{
+    background-color: transparent;
+    border-color: transparent;
+    color: grey;
+    font-size: 26px;
+}
+.us:hover{
+    color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.kont{
+    background-color: transparent;
+    border-color: transparent;
+    color: grey;
+    font-size: 26px;
+}
+.kont:hover{
+    color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.zapis{
+    background-color: transparent;
+    border-color: transparent;
+    color: grey;
+    font-size: 26px;
+}
+.zapis:hover{
+    color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+}

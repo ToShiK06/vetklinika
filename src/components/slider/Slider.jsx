@@ -55,7 +55,7 @@ const Slider = () => {
           transform: 'translate(-50%, -50%)',
           color: 'black',
           textAlign: 'center',
-          textAlign:'left',
+          
           zIndex: 2,
           backgroundColor: 'rgba(114, 109, 109, 0.5)', 
           padding: '20px',

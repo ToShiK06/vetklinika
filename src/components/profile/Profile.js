@@ -2,6 +2,12 @@ import { useEffect } from 'react';
 import { supabase } from '../../lib/supabaseClient';
 import { useNavigate } from 'react-router-dom';
 import s from './Profile.module.css'
+import { Link } from 'react-router-dom'
+import Dropdown from '../dropdown/Dropdown';
+import InputFieldQ from './PoleI';
+import InputFieldW from './PoleF';
+
+
 
 export default function Profile() {
   const navigate = useNavigate();
@@ -19,8 +25,29 @@ export default function Profile() {
 
   return (
     <div className={s.lk}>
-      Привееееееет
-      <button onClick={handleLogout}>Выйти</button>
+
+      <div className={s.profile}>
+        <div className={s.ext}>
+          <Link to="/">
+            <button className={s.nazad}></button>
+          </Link>
+        </div>
+
+        <div className={s.informacia}>
+          <div className={s.photoLk}></div>
+          <div className={s.fio}>
+            <InputFieldW />
+            <InputFieldQ />
+          </div>
+
+          <Dropdown />
+
+        </div>
+
+      </div>
+      <button onClick={handleLogout} className={s.vihod}>выйти</button>
+
+
     </div>
   );
 }
