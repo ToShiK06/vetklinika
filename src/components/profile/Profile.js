@@ -25,6 +25,35 @@ export default function Profile() {
 
   return (
     <div className={s.lk}>
+      <div className={s.profileC}>
+        <div className={s.ext}>
+          <Link to="/">
+            <button className={s.nazad}></button>
+          </Link>
+        </div>
+
+        <div className={s.infa}>
+
+          <div className={s.informacia}>
+            <div className={s.photoLk}></div>
+            <Dropdown />
+          </div>
+
+        </div>
+        <div className={s.fio}>
+          <InputFieldW />
+          <InputFieldQ />
+          <button onClick={handleLogout} className={s.vihod}>выйти</button>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    /*
+    <div className={s.lk}>
 
       <div className={s.profile}>
         <div className={s.ext}>
@@ -32,22 +61,24 @@ export default function Profile() {
             <button className={s.nazad}></button>
           </Link>
         </div>
+        <div className={s.infa}>
 
-        <div className={s.informacia}>
-          <div className={s.photoLk}></div>
-          <div className={s.fio}>
-            <InputFieldW />
-            <InputFieldQ />
+          <div className={s.informacia}>
+            <div className={s.photoLk}></div>
+            <Dropdown />
           </div>
-
-          <Dropdown />
 
         </div>
 
+        <div className={s.fio}>
+          <InputFieldW />
+          <InputFieldQ />
+          <button onClick={handleLogout} className={s.vihod}>выйти</button>
+        </div>
+
       </div>
-      <button onClick={handleLogout} className={s.vihod}>выйти</button>
 
 
-    </div>
+    </div>*/
   );
 }

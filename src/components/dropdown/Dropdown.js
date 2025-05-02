@@ -39,7 +39,7 @@ export const ActionsDropdown = () => {
           <Link to="/Cont">
           <button className={s.kont}> Контакты</button>
           </Link>
-          <Link to="spec">
+          <Link to="/spec">
           <button className={s.zapis}> Записаться</button>
           </Link>   
           

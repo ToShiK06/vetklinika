@@ -1,114 +1,122 @@
 import React from 'react'
 import s from './Special.module.css'
 import Header from '../header/Header'
-import {Link} from 'react-router-dom'
-
+import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Special = () => {
+   useEffect(() => {
+      AOS.init({
+        duration: 1000, 
+        once: false,
+      });
+    }, []);
   return (
-    
+
     <div className={s.special}>
-      <Header/>
-       <div className={s.specialTittle}>Специалисты</div>
+      <Header />
+      <div data-aos="fade-up" className={s.specialTittle}>Специалисты</div>
 
-<div className={s.knopki}>
-  <div className={s.specialisti}>
-    <Link to="/s1">
-      <button className={s.s1}>
+      <div className={s.knopki} data-aos="fade-up">
+        <div className={s.specialisti}>
+          <Link to="/s1">
+            <button className={s.s1}>
 
-        <div className={s.faceStazh}>
-          <div className={s.face1}></div>
-          <div className={s.stazh}>стаж 10 лет</div>
-        </div>
-        <div className={s.infoVrach}>
-          <div className={s.prof}>врач</div>
-          <div className={s.name}>Иванова Анастасия Андреевна</div>
-          <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Терапия, хирургия, ортопедия, лаборатория</div>
-        </div>
+              <div className={s.faceStazh}>
+                <div className={s.face1}></div>
+                <div className={s.stazh}>стаж 10 лет</div>
+              </div>
+              <div className={s.infoVrach}>
+                <div className={s.prof}>врач</div>
+                <div className={s.name}>Иванова Анастасия Андреевна</div>
+                <div className={s.spec}>специализация</div>
+                <div className={s.zadacha}>Терапия, хирургия, ортопедия, лаборатория</div>
+              </div>
 
-      </button>
-    </Link>
+            </button>
+          </Link>
 
-    <Link to="/s2">
-      <button className={s.s2}>
-        <div className={s.faceStazh}>
-          <div className={s.face2}></div>
-          <div className={s.stazh}>стаж 6 лет</div>
-        </div>
-        <div className={s.infoVrach}>
-          <div className={s.prof}>ассистент ветеринарного врача</div>
-          <div className={s.name}>Колпина Екатерина Дмитриевна</div>
-          <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Анестезиология, лаборатория, стоматология</div>
-        </div>
-      </button>
-    </Link>
+          <Link to="/s2">
+            <button className={s.s2}>
+              <div className={s.faceStazh}>
+                <div className={s.face2}></div>
+                <div className={s.stazh}>стаж 6 лет</div>
+              </div>
+              <div className={s.infoVrach}>
+                <div className={s.prof}>ассистент ветеринарного врача</div>
+                <div className={s.name}>Колпина Екатерина Дмитриевна</div>
+                <div className={s.spec}>специализация</div>
+                <div className={s.zadacha}>Анестезиология, лаборатория, стоматология</div>
+              </div>
+            </button>
+          </Link>
 
-    <Link to="/s3">
-      <button className={s.s3}>
-        <div className={s.faceStazh}>
-          <div className={s.face3}></div>
-          <div className={s.stazh}>стаж 4 года</div>
-        </div>
-        <div className={s.infoVrach}>
-          <div className={s.prof}>врач</div>
-          <div className={s.name}>Бублина Амина Рахметова</div>
-          <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Аптека, УЗИ-диагностика</div>
-        </div>
-      </button>
-    </Link>
+          <Link to="/s3">
+            <button className={s.s3}>
+              <div className={s.faceStazh}>
+                <div className={s.face3}></div>
+                <div className={s.stazh}>стаж 4 года</div>
+              </div>
+              <div className={s.infoVrach}>
+                <div className={s.prof}>врач</div>
+                <div className={s.name}>Бублина Амина Рахметова</div>
+                <div className={s.spec}>специализация</div>
+                <div className={s.zadacha}>Аптека, УЗИ-диагностика</div>
+              </div>
+            </button>
+          </Link>
 
-  </div>
-  <div className={s.specialisti2}>
+        </div>
+        <div className={s.specialisti2}>
 
-    <Link to="/s4">
-      <button className={s.s4}>
-        <div className={s.faceStazh}>
-          <div className={s.face4}></div>
-          <div className={s.stazh}>стаж 7 лет</div>
-        </div>
-        <div className={s.infoVrach}>
-          <div className={s.prof}>ординатор</div>
-          <div className={s.name}>Констатинопольский Константин Константинович</div>
-          <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Врач общей практики, визуальная диагностика </div>
-        </div>
-      </button>
-    </Link>
+          <Link to="/s4">
+            <button className={s.s4}>
+              <div className={s.faceStazh}>
+                <div className={s.face4}></div>
+                <div className={s.stazh}>стаж 7 лет</div>
+              </div>
+              <div className={s.infoVrach}>
+                <div className={s.prof}>ординатор</div>
+                <div className={s.name}>Констатинопольский Константин Константинович</div>
+                <div className={s.spec}>специализация</div>
+                <div className={s.zadacha}>Врач общей практики, визуальная диагностика </div>
+              </div>
+            </button>
+          </Link>
 
-    <Link to="/s5">
-      <button className={s.s5}>
-        <div className={s.faceStazh}>
-          <div className={s.face5}></div>
-          <div className={s.stazh}>стаж 2 года</div>
-        </div>
-        <div className={s.infoVrach}>
-          <div className={s.prof}>ассистент ветеринарного врача</div>
-          <div className={s.name}>Голубина Александра Маратовна</div>
-          <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Хирургия, онкология</div>
-        </div>
-      </button>
-    </Link>
+          <Link to="/s5">
+            <button className={s.s5}>
+              <div className={s.faceStazh}>
+                <div className={s.face5}></div>
+                <div className={s.stazh}>стаж 2 года</div>
+              </div>
+              <div className={s.infoVrach}>
+                <div className={s.prof}>ассистент ветеринарного врача</div>
+                <div className={s.name}>Голубина Александра Маратовна</div>
+                <div className={s.spec}>специализация</div>
+                <div className={s.zadacha}>Хирургия, онкология</div>
+              </div>
+            </button>
+          </Link>
 
-    <Link to="/s6">
-      <button className={s.s6}>
-        <div className={s.faceStazh}>
-          <div className={s.face6}></div>
-          <div className={s.stazh}>стаж 9 лет</div>
+          <Link to="/s6">
+            <button className={s.s6}>
+              <div className={s.faceStazh}>
+                <div className={s.face6}></div>
+                <div className={s.stazh}>стаж 9 лет</div>
+              </div>
+              <div className={s.infoVrach}>
+                <div className={s.prof}>ардинатор</div>
+                <div className={s.name}>Зарубин Владимир Николаевич</div>
+                <div className={s.spec}>специализация</div>
+                <div className={s.zadacha}>Ортопедия, дерматология</div>
+              </div>
+            </button>
+          </Link>
         </div>
-        <div className={s.infoVrach}>
-          <div className={s.prof}>ардинатор</div>
-          <div className={s.name}>Зарубин Владимир Николаевич</div>
-          <div className={s.spec}>специализация</div>
-          <div className={s.zadacha}>Ортопедия, дерматология</div>
-        </div>
-      </button>
-    </Link>
-  </div>
-</div>
+      </div>
     </div>
   )
 }

@@ -8,15 +8,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(254, 254, 254);
+   
 }
-.profile{
-    width: 1500px;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 1px 1px 1px 1px;
+.profileC{
+    width: 900px;
+    height: 800px;
+    background-color: rgb(200, 216, 211);
     border-radius: 20px;
+    margin-top: 3%;
+    display: flex;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.infa{
+    width: 400px;
+    height: 100%;
+    margin-top: 7%;
+    margin-left: 4%;
 }
 .ext{
     width: 50px;
@@ -48,18 +57,26 @@
     border-color: transparent;
 }
 .fio{
-    height: 200px;
+    width: 400px;
+    height: 600px;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    align-items: center;
+    row-gap: 30px;
+    margin-top: 20%;
+    
 }
-
+.informacia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .vihod{
     width: 200px;
     height: 50px;
     font-size: 24px;
-    border-radius: 20px;
-    margin-top: 80%;
+    border-radius: 20px;;
     border-color: transparent;
+    margin-top: 16%;
 
 }

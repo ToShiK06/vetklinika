@@ -3,12 +3,24 @@ import s from "./Contacti.module.css";
 import Header from "../header/Header";
 import { Link } from "react-router-dom";
 import Scroll from "../scroll/Scroll";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Contacti = () => {
+  useEffect(() => {
+  AOS.init({
+    duration: 1000, 
+    once: false,
+  });
+}, []);
+
+  
   return (
     <div className={s.contacti}>
-      <div className={s.contacti1}>
-        <Header />
+       <Header />
+      <div className={s.contacti1} data-aos="fade-up">
+       
         <div className={s.cont}>Контакты</div>
 
         <div className={s.contInfo}>
@@ -69,15 +81,7 @@ const Contacti = () => {
               <Link to="/">ГЛАВНАЯ</Link>
             </button>
           </div>
-          <div className={s.seti}>
-            <button className={s.tg}></button>
-            <button className={s.vk}></button>
-            <button className={s.youtube}></button>
-            <div className={s.pochta}>
-              <div className={s.logoPochta}></div>
-              <button className={s.gmail}>antonshorin23@gmail.com</button>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

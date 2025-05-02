@@ -79,15 +79,7 @@ const Online = () => {
               <Link to="/">ГЛАВНАЯ</Link>
             </button>
           </div>
-          <div className={s.seti}>
-            <button className={s.tg}></button>
-            <button className={s.vk}></button>
-            <button className={s.youtube}></button>
-            <div className={s.pochta}>
-              <div className={s.logoPochta}></div>
-              <button className={s.gmail}>antonshorin23@gmail.com</button>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

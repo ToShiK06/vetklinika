@@ -4,12 +4,21 @@ import s from './Us.module.css'
 import Special from '../special/Special'
 import Scroll from '../scroll/Scroll';
 import {Link} from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Us = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: false,
+    });
+  }, []);
   return (
     <div className={s.us}>
       <Header/>
-        <div className={s.kollektiv}>
+        <div className={s.kollektiv} data-aos="fade-up">
             <div className={s.tittleKollektiv}>
             <div className={s.kollektivTittle}>Коллектив</div>
             </div>
@@ -44,15 +53,7 @@ const Us = () => {
               <Link to="/Cont">КОНТАКТЫ</Link>
             </button>
             </div>
-            <div className={s.seti}>
-              <button className={s.tg}></button>
-              <button className={s.vk}></button>
-              <button className={s.youtube}></button>
-              <div className={s.pochta}>
-              <div className={s.logoPochta}></div>
-              <button className={s.gmail}>antonshorin23@gmail.com</button>
-              </div>
-            </div>
+            
            
           </div>
         </div>
