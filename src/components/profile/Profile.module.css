@@ -14,7 +14,7 @@
 .profileC{
     width: 900px;
     height: 800px;
-    background-color: rgb(200, 216, 211);
+    background-color: rgba(10, 10, 10, 0.225);
     border-radius: 20px;
     margin-top: 3%;
     display: flex;
